@@ -1,0 +1,23 @@
+{
+  "name": "cp-bit-lens",
+  "displayName": "CP Bit Lens",
+  "description": "Bit visualizer for competitive programmers",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "activationEvents": [
+    "onLanguage:cpp",
+    "onLanguage:c",
+    "onLanguage:python"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "cp-bit-lens.openPanel",
+        "title": "CP Bit Lens: Open Panel"
+      }
+    ]
+  }
+}
